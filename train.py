@@ -1,11 +1,9 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import torchvision
 import matplotlib.pyplot as plt
 import numpy as np
 import dataloader as DA
-from torchsummary import summary
 from model import EEGNet, DeepConvNet
 import dataloader as DA
 from torch.utils.data import Dataset
